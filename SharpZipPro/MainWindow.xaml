@@ -2,17 +2,17 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="350" Width="525">
-    <Grid Margin="10,10,10,10">
+    <Grid Background="AliceBlue">
         <Button Name="btnZip" Background="LightBlue" 
         BorderBrush="Black" BorderThickness="1" 
-        Click="OnClickZip" ClickMode="Press" Margin="81,181,287,62">
-            ClickZip
+        Click="OnClickZip" ClickMode="Press" Margin="10,10,426,271">
+            压缩
         </Button>
 
         <Button Name="btnUnZip" Background="LightBlue" 
         BorderBrush="Black" BorderThickness="1" 
-        Click="OnClickUnZip" ClickMode="Press" Margin="238,182,133,60">
-            ClickUnZip
+        Click="OnClickUnZip" ClickMode="Press" Margin="10,54,426,227">
+            解压
         </Button>
     </Grid>
     
